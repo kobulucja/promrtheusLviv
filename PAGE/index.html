@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Page</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="container">
             <h1>Main Header</h1>
             <h2>
                 <small>Small sub header</small>
-            </h2></div>
+            </h2>
+        </div>
     </header>
-    <nav>
-<div>
-    <ul>
-        <li><a href="#"></a>Home</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Contacts</li>
-    </ul>
-    <form action="#">
-        <input type="text" placeholder="Login" required>
-        <input type="password" placeholder="Password" required>
-        <input type="submit" value="Sign in">
-    </form>
-</div>
+    <nav class="page-navigation">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <form action="#" class="login">
+                <input type="text" placeholder="Login" required>
+                <input type="password" placeholder="Password" required>
+                <input type="submit" value="Sign in">
+            </form>
+        </div>
     </nav>
     <main>
         <div>
