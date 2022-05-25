@@ -18,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 13px;
+    line-height: 1.3em ;
+}
+
 /* header*/
 .header {
     padding: 50px 0;
@@ -73,10 +78,81 @@ a {
     border-radius: 5px;
 }
 
-.login input[type="submit"]:hover {
+.login input[type="submit"]:hover, button:hover {
     background-color: lightgrey;
     color: white;
 }
 
 /* main*/
+.collections {
+overflow: auto;
+}
 
+.collection-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #777;
+    font-size: 36px;
+}
+.collection-title small {
+color: #777;
+font-size: 70%;
+}
+.collection-item-outer {
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.collections > div:first-child {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.collections > div:last-child {
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+.collection-item {
+    border: 1px solid #959595;
+}
+.collection-item img, .collection-item video {
+width: 100%;
+}
+
+.collection-text {
+    padding: 0 20px 20px 20px;
+}
+
+.collection-text h3 {
+    color: yellowgreen;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.collection-text p {
+max-height: 80px;
+overflow: hidden;
+}
+
+.collection-text button {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+/*footer*/
+
+.footer {
+    background-color: yellowgreen;
+    color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.p {
+    text-align: center;
+}
